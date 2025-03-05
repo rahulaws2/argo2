@@ -32,4 +32,4 @@ jobs:
       # Push the Image to Docker Hub
       - name: Push Docker Image to Docker Hub
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/hello-world:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/rahulcd:latest
