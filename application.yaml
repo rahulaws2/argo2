@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/rahulaws2/argo2
-    targetRevision: master
+    targetRevision: main
     path: manifests
   destination:
     server: https://kubernetes.default.svc
